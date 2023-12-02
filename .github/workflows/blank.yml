@@ -13,8 +13,9 @@ permissions:
 # schedule and cron make it run at certain frequencies
 on:
   workflow_dispatch:
+  # Midnight HK Standard Time
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 16 * * *'
 jobs:
   daily:
     runs-on: ubuntu-latest
