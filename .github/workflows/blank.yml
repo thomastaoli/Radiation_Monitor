@@ -15,7 +15,7 @@ on:
   workflow_dispatch:
   # Midnight HK Standard Time
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '0 12 * * *'
 jobs:
   daily:
     runs-on: ubuntu-latest
